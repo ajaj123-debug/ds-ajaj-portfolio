@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Ajaj Ali",
   initials: "Ajaj",
-  url: "https://github.com/DevHrithik",
+  url: "https://github.com/ajaj123-debug",
   location: "Ambala, India",
   locationLink: "https://www.google.com/maps/place/Ambala",
   description:
@@ -45,7 +45,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "https://devhrithik.hashnode.dev",
+      href: " ",
       icon: NotebookIcon,
       label: "Blog",
     },
@@ -63,14 +63,14 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/devhrithik",
+        url: "https://www.linkedin.com/in/ds-ajaj-ali",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/Hrithikstwts",
+        url: "https://x.com/technerd_ajaj",
         icon: Icons.x,
 
         navbar: true,
@@ -262,9 +262,9 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "SIH Hackathon",
-      dates: "September 2024 - Present",
-      location: "Kolkata, India",
+      title: "Hack-X-Niet 2023",
+      dates: "May 2023 - Present",
+      location: "Noida, India",
       description:
         "Developed a web application that helps in ships re-routing using cuttinf edge traffic and optimizing the time taken to reach the destination.",
       image: "Smart-India-Hackathon-2023.png",
@@ -272,7 +272,7 @@ export const DATA = {
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/DevHrithik",
+          href: "https://github.com/ajaj123-debug",
         },
       ],
     },
