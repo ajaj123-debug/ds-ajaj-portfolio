@@ -146,7 +146,11 @@ export const DATA = {
   projects: [
     {
       title: "NutriScan",
+<<<<<<< HEAD
       href: "https://ai-landing-page-eta.vercel.app",
+=======
+      href: "https://nutriscan-food-labels-insights.onrender.com/",
+>>>>>>> main
       dates: "September 2024",
       active: true,
       description:
@@ -161,16 +165,28 @@ export const DATA = {
       links: [
         {
           type: "Website",
+<<<<<<< HEAD
           href: "https://ai-landing-page-eta.vercel.app",
+=======
+          href: "https://nutriscan-food-labels-insights.onrender.com",
+>>>>>>> main
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
+<<<<<<< HEAD
           href: "https://github.com/DevHrithik/AI-Landing_Page",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/AI_Landing-Page.png",
+=======
+          href: "https://github.com/ajaj123-debug/Nutriscan-food-labels-insights",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Nutriscan.png",
+>>>>>>> main
       video: "",
     },
     {
@@ -226,7 +242,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/DevHrithik/TodoListAI",
+          href: "https://github.com/ajaj123-debug",
           icon: <Icons.github className="size-3" />,
         },
       ],
