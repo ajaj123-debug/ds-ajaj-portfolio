@@ -161,16 +161,16 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://ai-landing-page-eta.vercel.app",
+          href: "https://nutriscan-food-labels-insights.onrender.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/DevHrithik/AI-Landing_Page",
+          href: "https://github.com/ajaj123-debug/Nutriscan-food-labels-insights",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/AI_Landing-Page.png",
+      image: "/Nutriscan.png",
       video: "",
     },
     {
@@ -226,7 +226,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/DevHrithik/TodoListAI",
+          href: "https://github.com/ajaj123-debug",
           icon: <Icons.github className="size-3" />,
         },
       ],
