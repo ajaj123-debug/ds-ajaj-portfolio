@@ -107,7 +107,7 @@ export const DATA = {
     {
       company: "Open Source",
       badges: [],
-      href: "https://github.com/DevHrithik",
+      href: "https://github.com/ajaj123-debug",
       location: "Remote",
       title: "Contributor",
       logoUrl: "/github-mark.png",
@@ -196,7 +196,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/DevHrithik/CRM_Dashboard-v1",
+          href: "https://github.com/ajaj123-debug",
           icon: <Icons.github className="size-3" />,
         },
       ],
