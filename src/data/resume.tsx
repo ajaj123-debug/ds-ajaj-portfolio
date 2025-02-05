@@ -169,7 +169,6 @@ export const DATA = {
           href: "https://ai-landing-page-eta.vercel.app",
 =======
           href: "https://nutriscan-food-labels-insights.onrender.com",
->>>>>>> main
           icon: <Icons.globe className="size-3" />,
         },
         {
