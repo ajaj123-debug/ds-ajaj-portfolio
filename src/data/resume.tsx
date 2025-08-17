@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Tech Enthusiast passionate about Software Engineering. I love building things and helping people. Very active on X.",
   summary:
-    "I’m a passionate [pre-final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
+    "I’m a passionate [final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
   avatarUrl: "/ajaj.jpg",
   skills: [
     "React",
@@ -119,14 +119,6 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Maharishi Markandeshwar University, India",
-      href: "https://www.mmumullana.org",
-      degree: "Bachelor's Degree of Engineering",
-      logoUrl: "/mmec.png",
-      start: "2022",
-      end: "2026",
-    },
-    {
       school: "100xDevs",
       href: "https://app.100xdevs.com",
       degree: "Full Stack Web Development, DevOps & Web3 Bootcamp",
@@ -170,16 +162,16 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/NutriScan.png",
+      image: "/nutriScan.png",
       video: "",
     },
     {
-      title: "CRM Dashboard",
-      href: "https://crm-dashboard-v1.vercel.app",
-      dates: "September 2024",
+      title: "Note2Test",
+      href: "https://note2tests.vercel.app",
+      dates: "July 2025",
       active: true,
       description:
-        "This CRM dashboard, built using Next.js, React.js, Tailwind CSS, Shadcn, Prisma, and Postgres, integrates the latest features to streamline customer relationship management. It offers a sleek, user-friendly interface, real-time data management, and powerful backend capabilities, providing a complete solution for efficient and organized business operations.",
+        "Note2Test is an AI-driven platform that helps aspirants turn their study material into interactive learning experiences. The platform allows users to upload study documents (PDFs, notes, etc.) and automatically generates quizzes, practice tests, and evaluation reports to enhance exam preparation.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -191,7 +183,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://crm-dashboard-v1.vercel.app/",
+          href: "https://note2test.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -200,7 +192,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/CRM-Dashboard.png",
+      image: "/note2test.png",
       video: "",
     },
     {
@@ -239,7 +231,7 @@ export const DATA = {
       dates: "September 2024",
       active: true,
       description:
-        "Developed an amazing Portfolio to showase my work to potentiol recruiters. I used latest web desiging techniques like [TailwindCSS](https://tailwindcss.com/) and [Shadcn UI](https://ui.shadcn.com/) to make it look good and [Next.js](https://nextjs.org/) to make it fast.",
+        "Developed an amazing Portfolio to showcase my work to potential recruiters. I used latest web desiging techniques like [TailwindCSS](https://tailwindcss.com/) and [Shadcn UI](https://ui.shadcn.com/) to make it look good and [Next.js](https://nextjs.org/) to make it fast.",
       technologies: [
         "Next.js",
         "ReactJS",
