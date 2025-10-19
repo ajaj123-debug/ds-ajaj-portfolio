@@ -67,7 +67,7 @@ export const DATA = {
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https:youtube.com",
         icon: Icons.youtube,
         navbar: false,
       },
@@ -82,6 +82,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Alpha Intern Pvt Ltd",
+      href: "https://alphaintern.in",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl: "/alphaintern.png",
+      start: "2024",
+      end: "Present",
+      description:
+        "Designed and developed the edtechnology platform using Next.js, React, and Tailwind CSS, resulting in a responsive and user-friendly interface. Implemented backend services with Node.js and Express, ensuring robust performance and scalability. Integrated third-party APIs for enhanced functionality, including payment gateways and analytics tools. Collaborated with cross-functional teams to deliver new features and improvements, leading to a 20% increase in user engagement. Utilized Git for version control and participated in code reviews to maintain high-quality standards.",
+    },
     {
       company: "Freelance Web Developer",
       href: "",
