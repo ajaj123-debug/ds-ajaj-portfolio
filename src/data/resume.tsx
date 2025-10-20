@@ -35,9 +35,9 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: " ",
+      href: "https://drive.google.com/file/d/1-U7zJqZHeW6bmMMNbA9xkjX88meoYX73/view?usp=sharing",
       icon: NotebookIcon,
-      label: "Blog",
+      label: "Resume",
     },
   ],
   contact: {
