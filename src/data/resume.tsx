@@ -185,7 +185,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://note2test.vercel.app/",
+          href: "https://note2tests.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
