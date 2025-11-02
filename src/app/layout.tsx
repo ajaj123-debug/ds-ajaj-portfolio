@@ -70,8 +70,8 @@ export default function RootLayout({
           src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"
           strategy="beforeInteractive"
         />
-        <VantaBackground />
         <ThemeProvider attribute="class" defaultTheme="system">
+          <VantaBackground />
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
