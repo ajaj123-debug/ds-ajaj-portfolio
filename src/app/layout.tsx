@@ -6,6 +6,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/navbar";
+import VantaBackground from "@/components/vanta-background";
+import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -60,6 +62,15 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
+          strategy="beforeInteractive"
+        />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"
+          strategy="beforeInteractive"
+        />
+        <VantaBackground />
         <ThemeProvider attribute="class" defaultTheme="system">
           <TooltipProvider delayDuration={0}>
             {children}
