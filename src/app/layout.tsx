@@ -70,6 +70,17 @@ export default function RootLayout({
           src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"
           strategy="beforeInteractive"
         />
+        <Script id="mouseflow" strategy="afterInteractive">
+          {`
+            window._mfq = window._mfq || [];
+            (function() {
+              var mf = document.createElement("script");
+              mf.type = "text/javascript"; mf.defer = true;
+              mf.src = "//cdn.mouseflow.com/projects/bb3c3ad8-d2a9-4653-a5c2-407b60ba132c.js";
+              document.getElementsByTagName("head")[0].appendChild(mf);
+            })();
+          `}
+        </Script>
         <ThemeProvider attribute="class" defaultTheme="system">
           <VantaBackground />
           <TooltipProvider delayDuration={0}>
