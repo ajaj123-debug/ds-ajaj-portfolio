@@ -11,7 +11,7 @@ export const DATA = {
     "Tech Enthusiast passionate about Software Engineering. I love building things and helping people. Very active on X.",
   summary:
     "I’m a passionate [final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
-  avatarUrl: "/ajaj.jpg",
+  avatarUrl: "/ajajnewimage.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -251,6 +251,36 @@ export const DATA = {
         },
       ],
       image: "/port.png",
+      video: "",
+    },
+    {
+      title: "Ancestry Tree Visualizer",
+      href: "",
+      dates: "January 2026",
+      active: true,
+      description:
+        "An interactive web application that allows users to easily create, customize, and visualize their family ancestry tree. Users can add family members, define relationships, and generate a clean, structured tree layout in real time. The platform focuses on simplicity and accessibility, enabling anyone to build their family history without technical knowledge. Completed trees can be exported and downloaded as high-quality visuals for sharing or record-keeping.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "D3.js",
+        "React Flow",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ancestry-nest.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ajaj123-debug/AncestryNest",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ancestry_nest.png",
       video: "",
     },
   ],
