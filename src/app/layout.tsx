@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     yandex: "",
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/ajajnewimage.jpeg',
   },
 };
 export default function RootLayout({
