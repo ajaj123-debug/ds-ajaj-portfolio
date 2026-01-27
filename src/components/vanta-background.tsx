@@ -27,6 +27,8 @@ export default function VantaBackground() {
 
     // Determine if we're in dark mode
     // Check resolvedTheme first, then check document class as fallback
+
+
     const isDark = 
       resolvedTheme === "dark" || 
       (resolvedTheme === "system" && 
@@ -43,6 +45,7 @@ export default function VantaBackground() {
       el: vantaRef.current,
       mouseControls: true,
       touchControls: true,
+      
       gyroControls: false,
       minHeight: 200.0,
       minWidth: 200.0,
