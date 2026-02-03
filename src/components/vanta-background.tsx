@@ -29,6 +29,10 @@ export default function VantaBackground() {
     // Check resolvedTheme first, then check document class as fallback
 
 
+
+    
+
+
     const isDark = 
       resolvedTheme === "dark" || 
       (resolvedTheme === "system" && 
